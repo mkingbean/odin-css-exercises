@@ -11,7 +11,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
@@ -49,7 +48,6 @@ a {
 
 ul {
   display: flex;
-  align-items: center;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -58,5 +56,6 @@ ul {
 
 .header-left, .header-right {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
